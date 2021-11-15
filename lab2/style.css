@@ -1,0 +1,47 @@
+.MyStyle {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0px 10px;
+  margin: 3px;
+  text-align: center;
+}
+header {
+  background: black;
+  color: white;
+}
+
+.FontStyle {
+  font-size: 150%;
+  font-weight: bold;
+  padding: 20px;
+  text-align: justify;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+a {
+  text-align: center;
+  color: black;
+  font-size: 150%;
+  font-weight: bold;
+}
+.MyDiv {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: center;
+}
+button {
+  border: 1px solid black;
+  background: white;
+  border-radius: 5px;
+}
+button:hover {
+  background: #f0f0f0;
+}
+input {
+  margin-right: 5px;
+}
+body{
+background-color: silver;
+
+}

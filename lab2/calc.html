@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="calc.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <div style="flex-direction: column; display: flex;">
+      <header class="MyStyle">
+        <h1>Калькулятор</h1>
+      </header>
+      <main style="display: flex; min-height: 500px;">
+        <div class="MyStyle" style="min-width: 1320px;">
+          <div>
+            <h1 style="text-align: center;">
+              Решение квадратичного уравнения
+            </h1>
+          </div>
+          <div>
+            <form
+              name="equation"
+              action="javascript:calc()"
+              style="text-align: center;"
+            >
+              <input type="number" name="a" />x<sup>2</sup> +
+              <input type="number" name="b" />x + <input type="number" name="c" />=
+              0
+              <button onclick="calc()">Посчитать</button>
+            </form>
+            <div style="text-align: center;">
+              <h2>Решение:</h2>
+              <h3 id="d"></h1>
+              <h3 id="x1"></h3>
+              <h3 id="x2"></h3>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="MyStyle">
+      </footer>
+    </div>
+  </body>
+
+</html>
