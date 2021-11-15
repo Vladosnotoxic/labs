@@ -1,0 +1,18 @@
+body {
+  background: rgb(245, 239, 234);
+  padding: 50px;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+div {
+  max-width: 600px;
+}
+
+p {
+  line-height: 1.5;
+}
