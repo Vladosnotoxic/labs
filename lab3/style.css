@@ -1,0 +1,25 @@
+.nav-link {
+  color: grey;
+}
+
+post-conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#sale {
+  padding: 20px;
+}
+
+#comments {
+  padding: 20px;
+}
+
+.card {
+  border: none;
+}
+
+a {
+  border: none;
+}
