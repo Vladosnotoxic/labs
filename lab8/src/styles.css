@@ -1,0 +1,51 @@
+body {
+  background: #c249b2;
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  display: flex;
+}
+
+.users {
+  padding: 10px;
+  flex: 1;
+
+  border: 1px solid black;
+}
+
+.best_friends {
+  flex: 1;
+  padding: 10px;
+  background-color: rgb(255, 130, 47);
+  border: 1px solid black;
+}
+
+.userCard {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 15px;
+
+  width: 180px;
+  height: 280px;
+
+  border: 1px solid gray;
+  text-align: center;
+
+  background: #ffffff;
+}
+
+.list_title {
+  text-align: center;
+}
+
+.btn button {
+  background: #00a035;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  width: 170px;
+  height: 30px;
+  font-size: 12px;
+}
