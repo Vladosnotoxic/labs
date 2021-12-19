@@ -1,0 +1,9 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.horizLine {
+  background: linear-gradient(white, rgba(80, 80, 80, 0.6), white);
+  height: 6px;
+}
