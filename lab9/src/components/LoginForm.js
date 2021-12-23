@@ -9,13 +9,7 @@ class LoginForm extends React.Component {
 
     this.onChangeLogin = this.onChangeLogin.bind(this);
     this.onChangePassword = this.onChangePassword.bind(this);
-    this.onSubmit = this.onSubmit.bind(this);
   }
-
-  onSubmit(event) {
-    event.preventDefault();
-  }
-
   onChangePassword(event) {
     this.setState({ password: event.target.value });
   }
@@ -26,7 +20,12 @@ class LoginForm extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.onSubmit}>
+      <form
+        onSubmit={() => {
+          localStorage.setItem("login", JSON.stringify(this.state.login));
+          localStorage.setItem("password", JSON.stringify(this.state.password));
+        }}
+      >
         <p>
           <label>
             {" "}
